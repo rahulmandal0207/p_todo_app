@@ -1,13 +1,13 @@
 # Todo Application
 
-## Demo Video/GIF
+## Demo
 
 Here’s a small demo showing the working of the Todo Application:
 
-![Todo App Demo](assets/todo-app-demo.gif)
-
+![Todo App Demo](Todo.gif)
 
 A modern Todo application with a client-server architecture. The application is built with:
+
 - **Frontend**: Angular 18 for the user interface.
 - **Backend**: ASP.NET Core with Entity Framework Core for the API.
 
@@ -26,6 +26,7 @@ This project is structured as a mono repo, with separate submodules for the fron
 ## Architecture
 
 The project consists of two main components:
+
 1. **Frontend (UI)**: Developed using Angular 18. The UI interacts with the backend through HTTP requests.
 2. **Backend (API)**: Built with ASP.NET Core, which handles business logic and data processing, interacting with SQL Server via Entity Framework Core.
 
@@ -36,6 +37,7 @@ Both the UI and API are stored in separate submodules for modular development.
 ## Technology Stack
 
 - **Frontend**:
+
   - Angular 18
   - TypeScript
   - HTML5
@@ -43,6 +45,7 @@ Both the UI and API are stored in separate submodules for modular development.
   - RxJS
 
 - **Backend**:
+
   - ASP.NET Core
   - Entity Framework Core
   - SQL Server (or any other relational database supported by EF Core)
@@ -68,5 +71,6 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository with submodules included:
    ```bash
-   git clone --recurse-submodules <repository-url>
-   cd <repository-folder>
+   git clone --recurse-submodules https://github.com/rahulmandal0207/p_todo_app.git
+   cd p_todo_app
+   ```
