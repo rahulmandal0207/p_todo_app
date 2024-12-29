@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/rahulmandal0207/sm_todo_api.git
+[submodule "ui"]
+	path = ui
+	url = https://github.com/rahulmandal0207/sm_todo_ui.git
